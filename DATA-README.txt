@@ -74,14 +74,16 @@ Standard BibTeX. Paste the entry from the publisher and save. Notes:
     note = {Submitted} or note = {Accepted} is shown next to it.
   * Author marks: put the symbol right after the name inside the braces —
     "J. Yoo†" for equal contribution, "M. S. Jeong*" for corresponding author.
-  * Graphical abstract: images/pub-<bibkey>.jpg, where <bibkey> is the key on
-    the @article{...} line.
+  * Graphical abstract: images/<year>_<journal abbreviation>.jpg, e.g.
+    images/2024_NT.jpg for the Nano Today 2024 paper. Add  abbrev = {NT},  to
+    the entry to set the abbreviation by hand. images/README.txt lists the exact
+    file name for every paper currently in the list.
 
 images/
 -------
 Drop .jpg or .png files in the images folder; the site picks them up by name.
   images/home-hero.jpg          Home key visual
-  images/proj-1.jpg .. proj-3   Research topic figures
+  images/proj-1.jpg proj-2.jpg proj-3.jpg   Research topic figures, in page order
   images/prof-photo.jpg         Portrait (photoId in members.json)
   images/gal-1.jpg              Gallery photo (id in gallery.json)
-  images/pub-<bibkey>.jpg       Graphical abstract for a paper
+  images/<year>_<abbr>.jpg      Graphical abstract, e.g. images/2024_NT.jpg
