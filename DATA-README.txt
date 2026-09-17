@@ -33,6 +33,9 @@ news.json
 ---------
   date   Short label shown in the left column, e.g. "Sep 2026".
   text   One sentence. Shown on Home (3 newest) and on Notice > News (all).
+  image  Optional. File name (no extension) of a photo in images/news/ —
+         "image": "opening-day" shows images/news/opening-day.jpg next to the
+         item on the Notice page. Leave it out, or "", for a text-only item.
 
 members.json
 ------------
@@ -41,7 +44,7 @@ members.json
   role      Blue line above the name, e.g. "Principal Investigator",
             "PhD Student", "Undergraduate Researcher".
   title     Grey line under the name, e.g. "Assistant Professor".
-  photoId   Photo file name without extension: images/<photoId>.jpg
+  photoId   Photo file name without extension: images/people/<photoId>.jpg
             (.png also works). Leave the file out and a grey placeholder shows.
   office    Room and building.
   email     Shown as a mailto link.
@@ -55,7 +58,7 @@ members.json
 
 gallery.json
 ------------
-  id           Photo file name without extension: images/<id>.jpg
+  id           Photo file name without extension: images/gallery/<id>.jpg
   caption      One line under the photo.
   date         Small grey line under the caption, e.g. "Sep 2026".
   placeholder  Text shown in the grey box until the photo file exists.
@@ -74,16 +77,16 @@ Standard BibTeX. Paste the entry from the publisher and save. Notes:
     note = {Submitted} or note = {Accepted} is shown next to it.
   * Author marks: put the symbol right after the name inside the braces —
     "J. Yoo†" for equal contribution, "M. S. Jeong*" for corresponding author.
-  * Graphical abstract: images/<year>_<journal abbreviation>.jpg, e.g.
-    images/2024_NT.jpg for the Nano Today 2024 paper. Add  abbrev = {NT},  to
+  * Graphical abstract: images/papers/<year>_<journal abbreviation>.jpg, e.g.
+    images/papers/2024_NT.jpg for the Nano Today 2024 paper. Add  abbrev = {NT},  to
     the entry to set the abbreviation by hand. images/README.txt lists the exact
     file name for every paper currently in the list.
 
 images/
 -------
-Drop .jpg or .png files in the images folder; the site picks them up by name.
-  images/home-hero.jpg          Home key visual
-  images/proj-1.jpg proj-2.jpg proj-3.jpg   Research topic figures, in page order
-  images/prof-photo.jpg         Portrait (photoId in members.json)
-  images/gal-1.jpg              Gallery photo (id in gallery.json)
-  images/<year>_<abbr>.jpg      Graphical abstract, e.g. images/2024_NT.jpg
+Photos live in five subfolders; see images/README.txt for the full list.
+  images/webpages/   home-hero.jpg, proj-1-small.jpg, proj-1-large.jpg, ...
+  images/people/     portraits, named after "photoId" in members.json
+  images/papers/     graphical abstracts, named <year>_<abbr>.jpg
+  images/gallery/    gallery photos, named after "id" in gallery.json
+  images/news/       optional news photos, named after "image" in news.json
