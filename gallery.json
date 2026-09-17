@@ -1,0 +1,15 @@
+[
+  {
+    "example": true,
+    "id": "example-photo",
+    "caption": "EXAMPLE ENTRY — put images/example-photo.jpg in the images folder.",
+    "date": "Jan 2027",
+    "placeholder": "What this photo shows"
+  },
+  {
+    "id": "gal-1",
+    "caption": "Y-Lab opens at Hanyang University",
+    "date": "Sep 2026",
+    "placeholder": "Lab opening"
+  }
+]

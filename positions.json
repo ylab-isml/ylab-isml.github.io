@@ -1,0 +1,15 @@
+[
+  {
+    "example": true,
+    "title": "EXAMPLE POSITION",
+    "desc": "One or two sentences describing who this position is for and what they would work on."
+  },
+  {
+    "title": "Graduate Students (MS / PhD)",
+    "desc": "You will own a full research thread: experiment, AI modeling, or both. Backgrounds in physics, materials science, chemistry, or ML all fit."
+  },
+  {
+    "title": "Undergraduate Researchers",
+    "desc": "Semester or summer research. Curiosity matters more than experience; coding skills (Python) are a plus."
+  }
+]

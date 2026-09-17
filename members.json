@@ -1,0 +1,66 @@
+[
+  {
+    "example": true,
+    "id": "example-member",
+    "name": "Example Person",
+    "role": "Graduate Student",
+    "title": "MS Student, Dept. of Physics",
+    "photoId": "example-member",
+    "office": "Room 000, Building name",
+    "email": "someone@hanyang.ac.kr",
+    "phone": "",
+    "scholar": "",
+    "linkedin": "",
+    "history": [
+      {
+        "period": "2027 – present",
+        "text": "MS Student",
+        "place": "Hanyang University"
+      },
+      {
+        "period": "2023 – 2027",
+        "text": "B.S. in Physics",
+        "place": "Some University"
+      }
+    ]
+  },
+  {
+    "id": "yoo",
+    "name": "Jaekak Yoo",
+    "role": "Principal Investigator",
+    "photoId": "prof-photo",
+    "title": "Assistant Professor",
+    "office": "Room 513-3, Economics & Finance Building",
+    "email": "yoojk20@hanyang.ac.kr",
+    "phone": "+82-2-2220-1812",
+    "scholar": "https://scholar.google.com/citations?user=TYcCbDsAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/jaekak-yoo-084a68272/",
+    "history": [
+      {
+        "period": "2026 – present",
+        "text": "Assistant Professor",
+        "place": "Hanyang YK Intercollege (affiliated with Dept. of Physics), Hanyang University"
+      },
+      {
+        "period": "2025 – 2026",
+        "text": "Postdoctoral Research Associate",
+        "place": "Dept. of Chemistry, University of Illinois Urbana-Champaign (Profs. Christy F. Landes & Stephan Link)"
+      },
+      {
+        "period": "2024 – 2025",
+        "text": "Postdoctoral Research Associate",
+        "place": "Dept. of Physics, Hanyang University (Prof. Mun Seok Jeong)"
+      },
+      {
+        "period": "2018 – 2024",
+        "text": "Ph.D. in Energy Science",
+        "place": "Sungkyunkwan University (Prof. Seong Chu Lim)"
+      },
+      {
+        "period": "2014 – 2018",
+        "text": "B.S. in Advanced Materials Science & Engineering",
+        "place": "Sungkyunkwan University"
+      }
+    ]
+  }
+]
