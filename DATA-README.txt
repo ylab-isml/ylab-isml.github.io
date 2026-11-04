@@ -51,10 +51,18 @@ members.json
   phone     Optional. Leave as "" to hide the phone line.
   scholar   Optional Google Scholar URL. "" hides the button.
   linkedin  Optional LinkedIn URL. "" hides the button.
-  history   List of { "period", "text", "place" } rows, newest first:
+  bio       Optional short paragraph, shown below Education & Experience. "" hides it.
+            office, email, history: leave "" / [] to hide them as well.
+  history   "Education & Experience" — list of { "period", "text", "place" }
+            rows, newest first:
               period  "2026 – present"
               text    Position or degree
-              place   Institution, advisor in parentheses if relevant
+              place   Institution, advisor in parentheses if relevant.
+                      Write \n inside the text to break it onto a new line:
+                      "Department of Physics\nHanyang University"
+  career    "Professional Career" — same row format as history (editorial
+            boards, reviewer roles, committees, awards, ...). Leave it as []
+            and the section is hidden.
 
 gallery.json
 ------------
