@@ -155,5 +155,31 @@
       }
     ],
     "career": []
+  },
+  {
+    "id": "lee",
+    "name": "Jeongeun Lee",
+    "role": "Undergraduate Researcher",
+    "photoId": "jeongeun-lee",
+    "title": "B.S. Student, Electronic Engineering",
+    "office": "",
+    "email": "",
+    "phone": "",
+    "scholar": "",
+    "linkedin": "",
+    "bio": "I am an undergraduate student at Hanyang University, majoring in Electronic Engineering with a minor in Future Semiconductor Engineering. My research interests include AI-driven data analysis, theoretical modeling, and the physical properties of semiconductor materials.",
+    "history": [
+      {
+        "period": "2026 – present",
+        "text": "Undergraduate Research Assistant",
+        "place": "Y-Lab, Hanyang University"
+      },
+      {
+        "period": "2025 – present",
+        "text": "B.S. in Electronic Engineering, Minor in Future Semiconductor Engineering",
+        "place": "Hanyang University"
+      }
+    ],
+    "career": []
   }
 ]
